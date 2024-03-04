@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  --weight: 600;
+  background-color: #012F34;
+  color: white;
+  font-family: "Livvic", sans-serif;
+  font-size: 16px;
+}
+
+.myteam {
+  display: flex;
+  width: 10rem;
+  height: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  padding: 3rem 1.5rem 0 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: var(--weight);
+  font-size: 18px;
+}
+
+.Find {
+  text-align: center;
+  padding: 0 5.6rem;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 5rem 0 1rem 0;
+}
+
+.talent {
+  color: rgb(246, 126, 126);
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.Finding {
+  display: flex;
+  text-align: center;
+  padding: 0 24px 0 24px;
+  line-height: 1.75rem;
+  font-weight: var(--weight);
+  font-size: 15px;
+  padding-bottom: 40%;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h3 {
+  color: #F67E7E;
+}
+
+h1 span {
+    color: #F67E7E;
+}
+
+p { 
+    text-align: center;
+}
+
+section {
+    padding: 20% 2rem 0 2rem;
+    background-color: #012F34;
+}
+
+section h1 {
+  padding-bottom: 20%;
+  width: 240px;
+  font-size: 35px;
+}
+
+article {
+  padding-bottom: 20%;
+  text-align: center;
+}
+
+.section2{
+  background: #004047;
+}
+
+.Delivering {
+  padding-bottom: 20%;
+  text-align: center;
+  width: 90%;
+  font-size: 32px;
+}
+
+article p {
+  padding-bottom: 15px;
+}
+
+.Delivering span{
+  color: #79C8C7;
+}
+
+.name {
+  padding-top: 20px;
+  color: #79C8C7;
+}
+
+.avatar {
+  width: 80px;
+  border: 2px solid #C4FFFE;
+  border-radius: 50%;
+}
+
+.Art-Ready {
+  background: #F67E7E;
+  color: #012F34;
+  height: 302px;
+}
+
+.Ready {
+  font-size: 32px;
+  font-weight: 900; 
+  margin-bottom: 1rem;
+
+}
+
+h4 {
+  margin-left: 90px;
+  width: 60%;
+}
+
+.contact {
+  margin-left: 30%;
+  margin-top: 10%;
+  padding: 1rem 2rem;
+  width: 173px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: solid #012F34 2px;
+  font-size: 20px;
+  color: #012F34;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.art {
+  text-align: center;
+}
